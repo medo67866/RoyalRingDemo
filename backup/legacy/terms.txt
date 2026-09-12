@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions | ROYALRING EXPORT & IMPORT CO. LIMITED</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container py-5">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="images/logo.png" alt="ROYALRING EXPORT & IMPORT CO. LIMITED" class="brand-logo" width="150" height="150">
+</a>
+    <h1 class="h2 mb-4">Terms & Conditions</h1>
+    <p>All content provided on this website is for general informational and commercial introduction purposes. Formal supply agreements, specifications, pricing, and freight terms are established exclusively through executed written corporate contracts.</p>
+    <a href="index.html" class="btn btn-rr-accent mt-3">Return to Home</a>
+  </div>
+  <footer class="py-4 bg-dark text-white border-top border-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">ROYALRING EXPORT & IMPORT CO. LIMITED</h4>
+          <p class="small text-muted">Plot 29A, Spring Road, Bugolobi<br>P.O. Box 67949, Kampala, Uganda</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Quick Navigation</h4>
+          <ul class="list-unstyled small">
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="products.html" class="text-white-50 text-decoration-none">Our Products</a></li>
+            <li><a href="export.html" class="text-white-50 text-decoration-none">Export & Supply Process</a></li>
+            <li><a href="markets.html" class="text-white-50 text-decoration-none">Target Markets</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Legal</h4>
+          <ul class="list-unstyled small">
+            <li><a href="privacy.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white-50 text-decoration-none">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-3 border-top border-secondary small text-white">
+        &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

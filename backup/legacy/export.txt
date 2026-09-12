@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Export & Supply Workflow | ROYALRING EXPORT & IMPORT CO. LIMITED</title>
+  <meta name="description" content="Explore ROYALRING's 8-step export and supply workflow: Product Sourcing, Quality Review, Packaging, and Global Logistics.">
+  <link rel="canonical" href="https://www.royalringltd.com/export.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-royalring sticky-top" aria-label="Main Navigation">
+    <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="images/logo.png" alt="ROYALRING EXPORT & IMPORT CO. LIMITED" class="brand-logo" width="150" height="150">
+</a>
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="export.html">Export & Supply</a></li>
+          <li class="nav-item"><a class="nav-link" href="quality.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-white" style="background-color: var(--rr-primary);">
+    <div class="container">
+      <h1 class="h2 fw-bold text-warning">Export & Supply Workflow</h1>
+      <p class="lead text-light mb-0">Structured, standardized steps from local sourcing to international dispatch.</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">1. Product Sourcing</h3>
+            <p class="text-muted small">Identification and procurement of high-grade raw commodities directly from trusted East African agricultural partners.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">2. Supplier Coordination</h3>
+            <p class="text-muted small">Aligning delivery timing and batch specifications with producers to maintain procurement consistency.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">3. Quality Review</h3>
+            <p class="text-muted small">Detailed physical evaluation assessing moisture content, bean/pod size uniformities, and grade compliance.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">4. Preparation</h3>
+            <p class="text-muted small">Sorting, cleaning, and conditioning bulk shipments to prepare them for long-distance transport.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">5. Packaging</h3>
+            <p class="text-muted small">Utilizing durable, industry-standard export packaging tailored to protect cargo integrity during transit.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">6. Documentation</h3>
+            <p class="text-muted small">Compiling official Ugandan export documentation, origin clearance certificates, and shipping manifests.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">7. Logistics</h3>
+            <p class="text-muted small">Coordinating overland transport from Kampala facilities to regional port hubs and loading terminals.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="h5 fw-bold" style="color: var(--rr-primary);">8. International Shipment</h3>
+            <p class="text-muted small">Executing ocean or air freight handovers to deliver commodities to buyer destinations globally.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-white border-top border-warning">
+    <div class="container text-center small text-white">
+      &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

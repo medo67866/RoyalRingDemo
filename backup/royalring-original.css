@@ -1,0 +1,567 @@
+/* =========================================================
+   ROYALRING EXPORT & IMPORT CO. LIMITED
+   GLOBAL STYLE SHEET
+   ========================================================= */
+
+
+/* =========================================================
+   1. BRAND COLOR SYSTEM
+   ========================================================= */
+
+:root {
+    --rr-primary: #784C2F;
+    --rr-primary-dark: #2C1A14;
+    --rr-secondary: #8C6239;
+    --rr-accent: #D4AF37;
+
+    --rr-bg: #FEF5E6;
+    --rr-surface: #FFFFFF;
+
+    --rr-text: #2C1A14;
+    --rr-text-muted: #6B5548;
+
+    --rr-border: #E5DDD5;
+
+    --rr-font-main:
+        system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+}
+
+
+/* =========================================================
+   2. GLOBAL
+   ========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--rr-bg);
+    color: var(--rr-text);
+    font-family: var(--rr-font-main);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* General paragraphs */
+body p {
+    color: var(--rr-text);
+}
+
+/* Secondary text */
+.text-muted {
+    color: var(--rr-text-muted) !important;
+}
+
+
+/* =========================================================
+   3. NAVIGATION
+   ========================================================= */
+
+/*
+   The navbar background remains transparent.
+   Therefore the space between the logo and the menu
+   remains the website background color.
+*/
+
+.navbar-royalring {
+    background-color: transparent !important;
+    border-bottom: none;
+    padding: 0.8rem 1rem;
+}
+
+/* Logo */
+.navbar-royalring .navbar-brand {
+    color: var(--rr-text);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Logo image */
+.navbar-royalring .brand-logo {
+    height: 65px;
+    width: auto;
+    max-width: 280px;
+    object-fit: contain;
+}
+
+/* Navigation buttons */
+.navbar-royalring .navbar-nav .nav-link {
+    background-color: #784C2F !important;
+    color: #FFFFFF !important;
+
+    margin-left: 4px;
+    padding: 10px 16px !important;
+
+    border-radius: 4px;
+
+    font-weight: 500;
+
+    transition:
+        background-color 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+/* Hover */
+.navbar-royalring .navbar-nav .nav-link:hover {
+    background-color: #8C6239 !important;
+    color: #FFFFFF !important;
+}
+
+/* Active page */
+.navbar-royalring .navbar-nav .nav-link.active {
+    background-color: #2C1A14 !important;
+    color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   4. MOBILE NAVIGATION
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .navbar-royalring {
+        padding: 0.75rem 1rem;
+    }
+
+    .navbar-royalring .brand-logo {
+        height: 50px;
+        max-width: 210px;
+    }
+
+    .navbar-royalring .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   5. HERO SECTION
+   ========================================================= */
+
+.hero-section {
+    background:
+        linear-gradient(
+            135deg,
+            var(--rr-primary-dark) 0%,
+            #1A0F0C 100%
+        );
+
+    color: var(--rr-surface);
+    padding: 5rem 0;
+    position: relative;
+}
+
+/* Hero heading */
+.hero-section h1 {
+    color: var(--rr-accent);
+    font-weight: 700;
+}
+
+/* Hero description */
+.hero-description {
+    width: 100%;
+    max-width: 1050px;
+    color: #756A63 !important;
+}
+
+
+/* =========================================================
+   6. BUTTONS
+   ========================================================= */
+
+.btn-rr-accent {
+    background-color: var(--rr-accent);
+    color: var(--rr-primary-dark);
+
+    font-weight: 600;
+
+    border: none;
+
+    padding: 0.6rem 1.4rem;
+
+    border-radius: 4px;
+
+    transition: all 0.2s ease;
+}
+
+.btn-rr-accent:hover {
+    background-color: #B89528;
+    color: var(--rr-primary-dark);
+}
+
+.btn-rr-outline {
+    border: 1px solid var(--rr-accent);
+
+    color: var(--rr-accent);
+
+    background: transparent;
+
+    font-weight: 600;
+
+    padding: 0.6rem 1.4rem;
+
+    border-radius: 4px;
+
+    transition: all 0.2s ease;
+}
+
+.btn-rr-outline:hover {
+    background-color: var(--rr-accent);
+    color: var(--rr-primary-dark);
+}
+
+
+/* =========================================================
+   7. PRODUCT CARDS
+   ========================================================= */
+
+.product-card {
+    background-color: var(--rr-surface);
+
+    border: 1px solid var(--rr-border);
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 20px rgba(44, 26, 20, 0.1);
+}
+
+
+/* Product image */
+.product-image-container {
+    position: relative;
+
+    overflow: hidden;
+
+    aspect-ratio: 4 / 3;
+}
+
+.product-image-container img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-image-container img {
+    transform: scale(1.05);
+}
+
+
+/* Product overlay */
+.product-overlay {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(44, 26, 20, 0.6);
+
+    opacity: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-overlay,
+.product-card.touch-active .product-overlay {
+    opacity: 1;
+}
+
+
+/* =========================================================
+   8. TIMELINE
+   ========================================================= */
+
+.timeline-item {
+    border-left: 3px solid var(--rr-secondary);
+
+    padding-left: 1.5rem;
+
+    margin-bottom: 2rem;
+
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+
+    position: absolute;
+
+    left: -9px;
+    top: 0;
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+
+    background-color: var(--rr-accent);
+}
+
+
+/* =========================================================
+   9. LIGHTBOX
+   ========================================================= */
+
+.rr-lightbox {
+    display: none;
+
+    position: fixed;
+
+    z-index: 9999;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.9);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.rr-lightbox.active {
+    display: flex;
+}
+
+.rr-lightbox img {
+    max-width: 90%;
+    max-height: 80vh;
+
+    border: 2px solid var(--rr-accent);
+
+    border-radius: 4px;
+}
+
+.rr-lightbox-close {
+    position: absolute;
+
+    top: 20px;
+    right: 30px;
+
+    color: #FFFFFF;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   10. MARKETS MAP
+   ========================================================= */
+
+/* Static markets image */
+.markets-map {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/*
+   Legacy SVG map support.
+   Kept in case any page still contains the old SVG map.
+*/
+
+.svg-map-container path {
+    fill: #D3C9C1;
+
+    stroke: #FEF5E6;
+
+    stroke-width: 0.5;
+
+    transition: fill 0.2s ease;
+
+    cursor: pointer;
+}
+
+.svg-map-container path.active-region {
+    fill: var(--rr-secondary);
+}
+
+.svg-map-container path.active-region:hover {
+    fill: var(--rr-accent);
+}
+
+
+/* =========================================================
+   11. GENERAL SURFACES
+   ========================================================= */
+
+/*
+   Cards and intentionally white content areas remain white.
+   The overall website background is #FEF5E6.
+*/
+
+.bg-white {
+    background-color: var(--rr-surface) !important;
+}
+
+
+/* =========================================================
+   12. FOOTER
+   ========================================================= */
+
+footer,
+footer.bg-dark {
+    background-color: #784C2F !important;
+
+    color: #FFFFFF !important;
+}
+
+/* Footer headings */
+footer h4,
+footer .text-warning {
+    color: var(--rr-accent) !important;
+}
+
+/* Footer text */
+footer p,
+footer .text-white,
+footer .text-white-50 {
+    color: #FFFFFF !important;
+}
+
+/* Footer links */
+footer a {
+    color: #FFFFFF !important;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--rr-accent) !important;
+}
+
+/* Footer divider */
+footer .border-top {
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+
+/* =========================================================
+   13. WHATSAPP FLOATING BUTTON
+   ========================================================= */
+
+.whatsapp-float {
+    position: fixed;
+
+    bottom: 25px;
+    right: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    background-color: #25D366;
+
+    color: #FFFFFF;
+
+    border-radius: 50px;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    box-shadow:
+        2px 2px 10px rgba(0, 0, 0, 0.2);
+
+    z-index: 1000;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #1EBE5D;
+
+    color: #FFFFFF;
+
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   14. ACCESSIBILITY
+   ========================================================= */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--rr-accent);
+
+    outline-offset: 2px;
+}
+
+
+/* =========================================================
+   15. MOBILE RESPONSIVENESS
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .hero-section {
+        padding: 3.5rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        max-width: 100%;
+    }
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+
+        right: 18px;
+        bottom: 18px;
+
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROYALRING EXPORT & IMPORT CO. LIMITED | Uganda Commodity Exporter</title>
+  <meta name="description" content="ROYALRING EXPORT & IMPORT CO. LIMITED connects high-quality Ugandan products including Coffee, Cocoa, Vanilla, Avocado, and Oudh Alanfar with global markets.">
+  <link rel="canonical" href="https://www.royalringltd.com/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/royalring.css">
+</head>
+<body>
+
+  <header class="bg-dark text-white py-1 fs-7">
+    <div class="container d-flex justify-content-between align-items-center">
+      <small>Kampala, Uganda | B2B International Trade</small>
+      <small>Direct Sales: <a href="mailto:Mohamed@royalringltd.com" class="text-warning text-decoration-none">Mohamed@royalringltd.com</a> | <a href="tel:+201141165167" class="text-warning text-decoration-none">+201141165167</a></small>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-royalring sticky-top" aria-label="Main Navigation">
+    <div class="container">
+      
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="images/logo.jpeg" alt="ROYALRING EXPORT & IMPORT CO. LIMITED" class="brand-logo" width="150" height="150">
+</a>
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">Export & Supply</a></li>
+          <li class="nav-item"><a class="nav-link" href="quality.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section text-center text-lg-start">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          
+          <p class="lead text-light mb-4">ROYALRING EXPORT & IMPORT CO. LIMITED is an international trading enterprise based in Kampala, Uganda, facilitating professional bulk sourcing and export management for high-demand agricultural commodities and natural products.</p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="h3 fw-bold mb-3" style="color: var(--rr-primary);">From Uganda to International Markets</h2>
+          <p>Headquartered in Bugolobi, Kampala, ROYALRING serves as a vital bridge between East African production streams and international commercial buyers. We coordinate transparent sourcing, rigorous quality checks, and structured export preparation across our primary commodity lines.</p>
+          <a href="about.html" class="btn btn-rr-outline mt-2">Discover ROYALRING</a>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80" alt="African agriculture landscape" class="img-fluid rounded shadow-sm" loading="lazy" width="800" height="533">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" style="background-color: #F5EFE6;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="h3 fw-bold" style="color: var(--rr-primary);">Our Export Portfolio</h2>
+        <p class="text-muted">High-grade commodities originating from East Africa</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="product-card h-100">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Coffee" loading="lazy" width="600" height="450">
+              <div class="product-overlay">
+                <button class="btn btn-rr-accent btn-sm" data-lightbox-src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80" data-lightbox-caption="Coffee Portfolio">View Image</button>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="h5 fw-bold" style="color: var(--rr-primary);">Coffee</h3>
+              <p class="text-muted small">Carefully selected Robusta and Arabica coffee beans harvested for global roasters and commercial distributors.</p>
+              <a href="products.html" class="text-decoration-none fw-bold small" style="color: var(--rr-secondary);">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card h-100">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80" alt="Cocoa" loading="lazy" width="600" height="450">
+              <div class="product-overlay">
+                <button class="btn btn-rr-accent btn-sm" data-lightbox-src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=80" data-lightbox-caption="Cocoa Portfolio">View Image</button>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="h5 fw-bold" style="color: var(--rr-primary);">Cocoa</h3>
+              <p class="text-muted small">Quality-checked raw cocoa beans sourced to satisfy demanding international confectionery requirements.</p>
+              <a href="products.html" class="text-decoration-none fw-bold small" style="color: var(--rr-secondary);">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card h-100">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80" alt="Vanilla" loading="lazy" width="600" height="450">
+              <div class="product-overlay">
+                <button class="btn btn-rr-accent btn-sm" data-lightbox-src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1200&q=80" data-lightbox-caption="Vanilla Portfolio">View Image</button>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="h5 fw-bold" style="color: var(--rr-primary);">Vanilla</h3>
+              <p class="text-muted small">Fragrant, properly cured vanilla pods prepared according to precise moisture and conditioning standards.</p>
+              <a href="products.html" class="text-decoration-none fw-bold small" style="color: var(--rr-secondary);">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card h-100">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=600&q=80" alt="Avocado" loading="lazy" width="600" height="450">
+              <div class="product-overlay">
+                <button class="btn btn-rr-accent btn-sm" data-lightbox-src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=1200&q=80" data-lightbox-caption="Avocado Portfolio">View Image</button>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="h5 fw-bold" style="color: var(--rr-primary);">Avocado</h3>
+              <p class="text-muted small">Freshly harvested avocados coordinated efficiently to preserve standard quality during export handling.</p>
+              <a href="products.html" class="text-decoration-none fw-bold small" style="color: var(--rr-secondary);">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card h-100">
+            <div class="product-image-container">
+              <img src="https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=600&q=80" alt="Oudh Alanfar" loading="lazy" width="600" height="450">
+              <div class="product-overlay">
+                <button class="btn btn-rr-accent btn-sm" data-lightbox-src="https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=1200&q=80" data-lightbox-caption="Oudh Alanfar Portfolio">View Image</button>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="h5 fw-bold" style="color: var(--rr-primary);">Oudh Alanfar</h3>
+              <p class="text-muted small">Distinctive raw natural wood products selected to meet regional buyer requirements across global markets.</p>
+              <a href="products.html" class="text-decoration-none fw-bold small" style="color: var(--rr-secondary);">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 text-white" style="background-color: var(--rr-primary);">
+    <div class="container text-center">
+      <h2 class="h3 fw-bold mb-3 text-warning">Let's Connect</h2>
+      <p class="mb-4">Direct inquiries are handled directly by our dedicated Sales and Management representatives.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div>
+          <span class="d-block text-muted small">Sales Executive</span>
+          <strong>Mohamed Hassan</strong><br>
+          <a href="mailto:Mohamed@royalringltd.com" class="text-light">Mohamed@royalringltd.com</a><br>
+          <a href="tel:+201141165167" class="text-light">+201141165167</a>
+        </div>
+        <div>
+          <span class="d-block text-muted small">General Enquiries</span>
+          <strong>Head Office</strong><br>
+          <a href="mailto:Info@royalringltd.com" class="text-light">Info@royalringltd.com</a><br>
+          <a href="tel:+256766578097" class="text-light">+256 766 578 097</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 text-white border-top border-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">ROYALRING EXPORT & IMPORT CO. LIMITED</h4>
+          <p class="small text-muted">Plot 29A, Spring Road, Bugolobi<br>P.O. Box 67949, Kampala, Uganda</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Quick Navigation</h4>
+          <ul class="list-unstyled small">
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="products.html" class="text-white-50 text-decoration-none">Our Products</a></li>
+            <li><a href="export.html" class="text-white-50 text-decoration-none">Export & Supply Process</a></li>
+            <li><a href="markets.html" class="text-white-50 text-decoration-none">Target Markets</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Legal</h4>
+          <ul class="list-unstyled small">
+            <li><a href="privacy.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white-50 text-decoration-none">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-3 border-top border-secondary small text-white">
+        &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <div id="rrLightbox" class="rr-lightbox" aria-hidden="true" role="dialog" aria-label="Image View">
+    <span class="rr-lightbox-close" aria-label="Close Lightbox">&times;</span>
+    <img id="rrLightboxImg" src="" alt="">
+    <div id="rrLightboxCaption" class="text-white mt-2 text-center"></div>
+  </div>
+
+  <a href="https://wa.me/+201141165167" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">
+    &#128172;
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quality & Sustainability | ROYALRING EXPORT & IMPORT CO. LIMITED</title>
+  <meta name="description" content="Discover our dedication to consistent commodity quality control and sustainable agricultural trade practices in Uganda.">
+  <link rel="canonical" href="https://www.royalringltd.com/quality.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-royalring sticky-top" aria-label="Main Navigation">
+    <div class="container">
+     <a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="images/logo.png" alt="ROYALRING EXPORT & IMPORT CO. LIMITED" class="brand-logo" width="150" height="150">
+</a>
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">Export & Supply</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="quality.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-white" style="background-color: var(--rr-primary);">
+    <div class="container">
+      <h1 class="h2 fw-bold text-warning">Quality Assurance & Sustainability</h1>
+      <p class="lead text-light mb-0">Maintaining trade integrity and responsible sourcing practices.</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h2 class="h4 fw-bold mb-3" style="color: var(--rr-primary);">Product Quality Control</h2>
+          <p>At ROYALRING, maintaining quality across every batch is central to our operational discipline. We systematically audit incoming product streams for grade consistency, cleanliness, and physical specifications prior to export packaging.</p>
+          <ul>
+            <li class="mb-2">Careful batch selection and visual inspection.</li>
+            <li class="mb-2">Strict adherence to moisture levels for Coffee, Cocoa, and Vanilla.</li>
+            <li class="mb-2">Proper cargo handling to prevent contamination during transportation.</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h4 fw-bold mb-3" style="color: var(--rr-primary);">Sustainable Sourcing Practices</h2>
+          <p>We work toward promoting sustainable economic growth within regional agricultural supply networks by building long-term, fair relationships with Ugandan producers and suppliers.</p>
+          <ul>
+            <li class="mb-2">Encouraging responsible environmental practices among suppliers.</li>
+            <li class="mb-2">Establishing transparent supply lines from local production points.</li>
+            <li class="mb-2">Supporting sustainable trade principles across international markets.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-white border-top border-warning">
+    <div class="container text-center small text-muted">
+      &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+<footer class="py-4 bg-dark text-white border-top border-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">ROYALRING EXPORT & IMPORT CO. LIMITED</h4>
+          <p class="small text-muted">Plot 29A, Spring Road, Bugolobi<br>P.O. Box 67949, Kampala, Uganda</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Quick Navigation</h4>
+          <ul class="list-unstyled small">
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="products.html" class="text-white-50 text-decoration-none">Our Products</a></li>
+            <li><a href="export.html" class="text-white-50 text-decoration-none">Export & Supply Process</a></li>
+            <li><a href="markets.html" class="text-white-50 text-decoration-none">Target Markets</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Legal</h4>
+          <ul class="list-unstyled small">
+            <li><a href="privacy.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white-50 text-decoration-none">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-3 border-top border-secondary small text-white">
+        &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

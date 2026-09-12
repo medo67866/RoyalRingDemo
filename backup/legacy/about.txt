@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | ROYALRING EXPORT & IMPORT CO. LIMITED</title>
+  <meta name="description" content="Learn about ROYALRING EXPORT & IMPORT CO. LIMITED, based in Bugolobi, Kampala, Uganda. Core values, commercial mission, and international trade operations.">
+  <link rel="canonical" href="https://www.royalringltd.com/about.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-royalring sticky-top" aria-label="Main Navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="images/logo/logo.png" alt="ROYALRING EXPORT & IMPORT CO. LIMITED" class="brand-logo" width="150" height="150">
+</a>
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">Export & Supply</a></li>
+          <li class="nav-item"><a class="nav-link" href="quality.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-white" style="background-color: var(--rr-primary);">
+    <div class="container">
+      <h1 class="h2 fw-bold text-warning">About ROYALRING</h1>
+      <p class="lead text-light mb-0">Bridging regional product supply with global import networks.</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-8">
+          <h2 class="h4 fw-bold mb-3" style="color: var(--rr-primary);">Company Overview</h2>
+          <p>ROYALRING EXPORT & IMPORT CO. LIMITED operates as a structured corporate trade entity located at Plot 29A, Spring Road, Bugolobi, Kampala, Uganda. The organization specializes in managing product sourcing, quality inspections, export documentation, and logistics coordination for primary agricultural and natural goods.</p>
+          
+          <h2 class="h4 fw-bold mt-4 mb-3" style="color: var(--rr-primary);">Our Mission & Vision</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="p-3 border rounded bg-white h-100">
+                <h3 class="h6 fw-bold text-warning">Commercial Mission</h3>
+                <p class="small mb-0">To reliably supply international buyers with authentic, quality-verified products originating from Uganda and East Africa, backed by efficient, professional export management.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 border rounded bg-white h-100">
+                <h3 class="h6 fw-bold text-warning">Corporate Vision</h3>
+                <p class="small mb-0">To build enduring, transparent B2B trading relationships across regional and international markets through consistent quality control and trade execution.</p>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="h4 fw-bold mt-4 mb-3" style="color: var(--rr-primary);">Core Values</h2>
+          <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-content py-2"><strong>Quality:</strong> Professional inspection standard across all commercial shipments.</li>
+            <li class="list-group-content py-2"><strong>Integrity:</strong> Clear operational documentation and transparent business practice.</li>
+            <li class="list-group-content py-2"><strong>Reliability:</strong> Dependable export execution aligned with buyer schedules.</li>
+            <li class="list-group-content py-2"><strong>Customer Focus:</strong> Dedicated contact points facilitating clear communication.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="p-4 rounded border bg-white">
+            <h3 class="h5 fw-bold mb-3" style="color: var(--rr-primary);">Corporate Details</h3>
+            <p class="small text-muted mb-1">Registered Address:</p>
+            <p class="small">Plot 29A, Spring Road, Bugolobi<br>P.O. Box 67949, Kampala, Uganda</p>
+
+            <p class="small text-muted mb-1">General Office:</p>
+            <p class="small mb-3"><a href="tel:+256766578097" class="text-dark">+256 766 578 097</a></p>
+
+            <p class="small text-muted mb-1">Sales Direct:</p>
+            <p class="small mb-0"><a href="tel:+201141165167" class="text-dark">+201141165167</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<footer class="py-4 bg-dark text-white border-top border-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">ROYALRING EXPORT & IMPORT CO. LIMITED</h4>
+          <p class="small text-muted">Plot 29A, Spring Road, Bugolobi<br>P.O. Box 67949, Kampala, Uganda</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Quick Navigation</h4>
+          <ul class="list-unstyled small">
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="products.html" class="text-white-50 text-decoration-none">Our Products</a></li>
+            <li><a href="export.html" class="text-white-50 text-decoration-none">Export & Supply Process</a></li>
+            <li><a href="markets.html" class="text-white-50 text-decoration-none">Target Markets</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h6 text-uppercase text-warning">Legal</h4>
+          <ul class="list-unstyled small">
+            <li><a href="privacy.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white-50 text-decoration-none">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-3 border-top border-secondary small text-white">
+        &copy; 2026 ROYALRING EXPORT & IMPORT CO. LIMITED. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

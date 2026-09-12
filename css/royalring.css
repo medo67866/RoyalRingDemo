@@ -1,0 +1,626 @@
+/* =========================================================
+   ROYALRING EXPORT & IMPORT CO. LIMITED
+   Global stylesheet — Bootstrap 5.3.2 companion
+   ========================================================= */
+
+:root {
+  --rr-bg: #FEF5E6;
+  --rr-primary: #784C2F;
+  --rr-primary-dark: #2C1A14;
+  --rr-secondary: #8C6239;
+  --rr-accent: #D4AF37;
+  --rr-text: #2C1A14;
+  --rr-text-muted: #6B5548;
+  --rr-surface: #FFFFFF;
+  --rr-border: #E5DDD5;
+
+  --rr-font-main: system-ui, -apple-system, "Segoe UI", Roboto,
+                  "Helvetica Neue", Arial, sans-serif;
+}
+
+/* -------------------------
+   Base
+   ------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--rr-bg);
+  color: var(--rr-text);
+  font-family: var(--rr-font-main);
+  line-height: 1.6;
+}
+
+p {
+  color: var(--rr-text);
+}
+
+.rr-secondary-text {
+  color: var(--rr-text-muted) !important;
+}
+
+.rr-accent-text {
+  color: var(--rr-accent) !important;
+}
+
+.text-dark {
+  color: var(--rr-primary-dark) !important;
+}
+
+.heading-primary {
+  color: var(--rr-primary) !important;
+}
+
+.link-secondary {
+  color: var(--rr-secondary) !important;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--rr-accent);
+  outline-offset: 2px;
+}
+
+/* -------------------------
+   Utility / top information bar
+   ------------------------- */
+.topbar {
+  padding: 0.25rem 0;
+  background-color: var(--rr-primary-dark) !important;
+  color: var(--rr-surface);
+}
+
+.topbar a {
+  color: var(--rr-accent) !important;
+  text-decoration: none;
+}
+
+.topbar a:hover,
+.topbar a:focus {
+  color: var(--rr-surface) !important;
+}
+
+/* -------------------------
+   Navigation
+   ------------------------- */
+.navbar-royalring {
+  background-color: transparent !important;
+  border: 0;
+  padding: 0.8rem 1rem;
+}
+
+.navbar-royalring .navbar-brand {
+  color: var(--rr-text);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar-royalring .brand-logo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.navbar-royalring .navbar-toggler {
+  color: var(--rr-primary-dark);
+}
+
+.navbar-royalring .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-royalring .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232C1A14' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-royalring .navbar-nav .nav-link {
+  margin-left: 4px;
+  padding: 10px 16px !important;
+  border-radius: 4px;
+  background-color: var(--rr-primary) !important;
+  color: var(--rr-surface) !important;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navbar-royalring .navbar-nav .nav-link:hover,
+.navbar-royalring .navbar-nav .nav-link:focus {
+  background-color: var(--rr-secondary) !important;
+  color: var(--rr-surface) !important;
+}
+
+.navbar-royalring .navbar-nav .nav-link.active,
+.navbar-royalring .navbar-nav .nav-link.active:hover {
+  background-color: var(--rr-primary-dark) !important;
+  color: var(--rr-surface) !important;
+}
+
+/* -------------------------
+   Page headers
+   ------------------------- */
+.page-header {
+  background-color: var(--rr-primary) !important;
+  color: var(--rr-surface);
+}
+
+.page-header h1,
+.page-header h2,
+.page-header h3 {
+  color: var(--rr-accent) !important;
+}
+
+.page-header .header-description {
+  color: var(--rr-surface) !important;
+  margin-bottom: 0;
+}
+
+/* -------------------------
+   Home hero / dark sections
+   ------------------------- */
+.hero-section {
+  position: relative;
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--rr-primary-dark) 0%, #1A0F0C 100%);
+  color: var(--rr-surface);
+}
+
+.hero-section .row {
+  align-items: center;
+}
+
+
+.hero-section .hero-content {
+  max-width: 900px;
+}
+
+.hero-section .hero-title {
+  max-width: 760px;
+  margin-right: auto;
+  color: var(--rr-surface) !important;
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.hero-section .hero-description {
+  width: 100%;
+  max-width: 760px;
+  color: var(--rr-surface) !important;
+}
+
+.hero-section .hero-logo {
+  display: block;
+  width: min(100%, 340px);
+  height: auto;
+  max-width: 340px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.uganda-farms-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.contact-connect-section {
+  background-color: var(--rr-secondary) !important;
+  color: var(--rr-surface);
+}
+
+.contact-connect-section p,
+.contact-connect-section strong,
+.contact-connect-section a,
+.contact-connect-section .dark-section-label {
+  color: var(--rr-surface) !important;
+}
+
+.contact-connect-section .dark-section-label {
+  color: var(--rr-accent) !important;
+  opacity: 1;
+}
+
+.contact-connect-section a:hover,
+.contact-connect-section a:focus {
+  color: var(--rr-accent) !important;
+}
+
+/* -------------------------
+   Buttons
+   ------------------------- */
+.btn-rr-accent {
+  padding: 0.6rem 1.4rem;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--rr-accent);
+  color: var(--rr-primary-dark);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-rr-accent:hover,
+.btn-rr-accent:focus {
+  background-color: #B89528;
+  color: var(--rr-primary-dark);
+}
+
+.btn-rr-outline {
+  padding: 0.6rem 1.4rem;
+  border: 1px solid var(--rr-accent);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--rr-accent);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-rr-outline:hover,
+.btn-rr-outline:focus {
+  background-color: var(--rr-accent);
+  color: var(--rr-primary-dark);
+}
+
+/* -------------------------
+   Cards / surfaces
+   ------------------------- */
+.card,
+.product-card,
+.bg-white,
+.markets-map-frame {
+  background-color: var(--rr-surface) !important;
+}
+
+.card {
+  color: var(--rr-text);
+}
+
+.product-card {
+  overflow: hidden;
+  border: 1px solid var(--rr-border);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(44, 26, 20, 0.1);
+}
+
+.product-image-container {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-image-container img {
+  transform: scale(1.05);
+}
+
+.product-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(44, 26, 20, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-overlay,
+.product-card.touch-active .product-overlay {
+  opacity: 1;
+}
+
+/* Product-page card images */
+.card-img-top {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.92;
+}
+
+/* -------------------------
+   Timeline
+   ------------------------- */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--rr-secondary);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--rr-accent);
+}
+
+/* -------------------------
+   Markets
+   ------------------------- */
+.markets-map-frame {
+  text-align: center;
+}
+
+.markets-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* -------------------------
+   Lightbox
+   ------------------------- */
+.rr-lightbox {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.rr-lightbox.active {
+  display: flex;
+}
+
+.rr-lightbox-content {
+  display: flex;
+  max-width: 95vw;
+  max-height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rr-lightbox img {
+  display: block;
+  max-width: 90vw;
+  max-height: 80vh;
+  border: 2px solid var(--rr-accent);
+  border-radius: 4px;
+}
+
+.rr-lightbox-caption {
+  margin-top: 0.5rem;
+  color: var(--rr-surface);
+  text-align: center;
+}
+
+.rr-lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  z-index: 1;
+  padding: 0.25rem 0.5rem;
+  border: 0;
+  background: transparent;
+  color: var(--rr-surface);
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* -------------------------
+   Footer
+   ------------------------- */
+.site-footer {
+  background-color: var(--rr-primary) !important;
+  color: var(--rr-surface) !important;
+  padding: 1.5rem 0;
+}
+
+.site-footer h4 {
+  color: var(--rr-accent) !important;
+}
+
+.site-footer p,
+.site-footer li,
+.site-footer .small {
+  color: var(--rr-surface) !important;
+}
+
+.site-footer a {
+  color: var(--rr-surface) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  color: var(--rr-accent) !important;
+}
+
+.site-footer .footer-bottom {
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--rr-surface) !important;
+}
+
+
+.footer-credit-separator {
+  margin: 0 0.4rem;
+  opacity: 0.65;
+}
+
+.site-footer .footer-bottom a.footer-credit,
+.site-footer .footer-bottom a[href*="medo67866.github.io/progmido"] {
+  color: var(--rr-accent) !important;
+  font-weight: 600;
+}
+
+.site-footer .footer-bottom a[href*="medo67866.github.io/progmido"]:hover,
+.site-footer .footer-bottom a[href*="medo67866.github.io/progmido"]:focus {
+  color: var(--rr-surface) !important;
+}
+
+
+/* -------------------------
+   WhatsApp floating button
+   ------------------------- */
+.whatsapp-float {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 1000;
+  display: flex;
+  width: 55px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #25D366;
+  color: var(--rr-surface);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus {
+  background-color: #1EBE5D;
+  color: var(--rr-surface);
+  transform: scale(1.05);
+}
+
+
+/* Contact phone / WhatsApp icons */
+.contact-icon-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.contact-icon-line a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+
+.contact-email-link,
+.contact-telephone-link {
+  width: 1.35rem;
+  justify-content: center;
+}
+
+.contact-email-icon {
+  color: var(--rr-primary);
+  font-size: 1.05rem;
+}
+
+.contact-telephone-icon {
+  color: var(--rr-primary);
+  font-size: 1rem;
+}
+
+.contact-email-link:hover .contact-email-icon,
+.contact-email-link:focus .contact-email-icon,
+.contact-telephone-link:hover .contact-telephone-icon,
+.contact-telephone-link:focus .contact-telephone-icon {
+  color: var(--rr-gold);
+}
+
+.contact-whatsapp-icon {
+  color: #25D366;
+  font-size: 1.2rem;
+}
+
+.contact-mobile-icon {
+  color: var(--rr-primary);
+  font-size: 1.05rem;
+}
+
+.whatsapp-float i {
+  font-size: 30px;
+  line-height: 1;
+}
+
+/* -------------------------
+   Responsive
+   ------------------------- */
+@media (max-width: 991.98px) {
+  .navbar-royalring {
+    padding: 0.75rem 1rem;
+  }
+
+  .navbar-royalring .brand-logo {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+  }
+
+  .navbar-royalring .navbar-nav {
+    padding-top: 0.5rem;
+  }
+
+  .navbar-royalring .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    padding: 3.5rem 0;
+  }
+
+  .hero-section .hero-title {
+    max-width: 100%;
+    font-size: 2.4rem;
+    line-height: 1.12;
+  }
+
+  .hero-section .hero-description {
+    max-width: 100%;
+  }
+
+  .hero-section .hero-logo {
+    width: min(100%, 260px);
+  }
+
+  .rr-lightbox img {
+    max-width: 94vw;
+    max-height: 76vh;
+  }
+
+  .whatsapp-float {
+    right: 18px;
+    bottom: 18px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+  }
+}
