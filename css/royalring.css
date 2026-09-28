@@ -208,9 +208,12 @@ button:focus-visible {
 .uganda-farms-image {
   display: block;
   width: 100%;
+  aspect-ratio: 16 / 9;
   height: auto;
   max-width: 100%;
   object-fit: cover;
+  border: 2px solid #784C2F;
+  border-radius: 8px;
 }
 
 .contact-connect-section {
@@ -623,4 +626,16 @@ button:focus-visible {
     height: 50px;
     font-size: 26px;
   }
+}
+
+/* Product image consistency update */
+.product-card .product-image-container,
+.card .card-img-top {
+  border: 2px solid #784C2F;
+}
+.card .card-img-top {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
